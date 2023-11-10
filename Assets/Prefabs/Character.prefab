@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3095645853914742790}
   - component: {fileID: 3095645853914742789}
   - component: {fileID: 3095645853914742788}
+  - component: {fileID: 2339936406943681548}
   m_Layer: 0
   m_Name: Skeleton_0
   m_TagString: Untagged
@@ -53,7 +54,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 22ae1dc721bb2064990c60387a04aa1a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -106,6 +107,55 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &2339936406943681548
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3095645853914742787}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7db70e0ea77f5ac47a8f4565a9406397, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_ShadowGroup: 0
+  m_ComponentVersion: 1
+  m_HasRenderer: 1
+  m_UseRendererSilhouette: 1
+  m_CastsShadows: 1
+  m_SelfShadows: 0
+  m_ApplyToSortingLayers: 271e7dd100000000af64a4e3
+  m_ShapePath:
+  - {x: 0.0924567, y: 0.2297814, z: 0}
+  - {x: 0.12961137, y: 0.20756318, z: 0}
+  - {x: 0.19294846, y: 0.25322485, z: 0}
+  - {x: 0.2341913, y: 0.31214315, z: 0}
+  - {x: 0.22093475, y: 0.351913, z: 0}
+  - {x: 0.18411076, y: 0.40199354, z: 0}
+  - {x: 0.27248824, y: 0.36369663, z: 0}
+  - {x: 0.2916366, y: 0.30183244, z: 0}
+  - {x: 0.14581382, y: 0.16779333, z: 0}
+  - {x: 0.100152135, y: 0.19136065, z: 0}
+  - {x: 0.058909297, y: 0.14422601, z: 0}
+  - {x: 0.022085428, y: 0.179577, z: 0}
+  - {x: 0.0014640093, y: 0.16337445, z: 0}
+  - {x: 0.0706929, y: 0.09561843, z: 0}
+  - {x: 0.030923128, y: 0.0013491511, z: 0}
+  - {x: -0.07218385, y: 0.002822101, z: 0}
+  - {x: -0.011792541, y: 0.08383477, z: 0}
+  - {x: -0.0707109, y: 0.122131646, z: 0}
+  - {x: -0.04714358, y: 0.2443871, z: 0}
+  - {x: -0.114899635, y: 0.20019838, z: 0}
+  - {x: -0.12848675, y: 0.21571927, z: 0}
+  - {x: -0.06890082, y: 0.31440738, z: 0}
+  - {x: 0.09754336, y: 0.3049021, z: 0}
+  m_ShapePathHash: 1383783879
+  m_Mesh: {fileID: 0}
+  m_InstanceId: -73346
+  m_LocalBounds:
+    m_Center: {x: 0.08157492, y: 0.20167135, z: 0}
+    m_Extent: {x: 0.21006167, y: 0.2003222, z: 0}
 --- !u!1 &3095645854426371075
 GameObject:
   m_ObjectHideFlags: 0
